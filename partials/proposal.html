@@ -9,7 +9,7 @@
         <form id="left-form">
           <p class="proposal__forms__form-header">Заявка на восстановление КБМ с ограниченным количеством водителей</p>
           <div class="form-group">
-            <input class="form-control" id="phone" type="text" placeholder="Телефон"/><small class="form-text text-muted" id="emailHelp">После ввода проверьте правильность номера телефона</small>
+            <input class="phone form-control" id="phone" type="text" placeholder="Телефон"/><small class="form-text text-muted" id="emailHelp">После ввода проверьте правильность номера телефона</small>
           </div>
           <div class="form-group">
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Фамилия *" required="required"/>
@@ -21,7 +21,7 @@
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Отчество *" required="required"/>
           </div>
           <div class="form-group">
-            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Дата рождения *" required="required"/>
+            <input class="birthday form-control" id="exampleInputPassword1" type="text" placeholder="Дата рождения *" required="required"/>
           </div>
           <div class="form-group">
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Водительское удостоверение *" required="required"/>
@@ -30,11 +30,10 @@
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Предыдущее водительское удостоверение" required="required"/><small class="form-text text-muted" id="for">Заполняется в случае смены в/у и наличия данных предыдущего в/у</small>
           </div>
           <div class="form-group">
-            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Email" required="required"/>
-            <smal class="form-text text-muted" id="emailHelp">Заполняется в случае наличия электронной почты</smal>
+            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Email" required="required"/><small class="form-text text-muted" id="emailHelp">Заполняется в случае наличия электронной почты</small>
           </div>
           <div class="form-group">
-            <p>Выберите предпочтительный для Вас способ оплаты</p>
+            <label for="">Выберите предпочтительный для Вас способ оплаты</label>
             <div class="form-check">
               <input class="form-check-input" id="exampleRadios1" type="radio" name="exampleRadios" value="option1" checked=""/>
               <label class="form-check-label" for="exampleRadios1">499 рублей, предоплатой</label>
@@ -49,7 +48,7 @@
           </div>
           <div class="text-center">
             <button class="btn btn-info" type="submit">Отправить заявку</button>
-            <p>Нажимая на кнопку, вы принимаете <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/regulation.html" target="_blank" rel="nofollow">Положение</a> и <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/consent.html" target="_blank" rel="nofollow">Согласие</a> на обработку персональных данных.</p>
+            <p class="agreement">Нажимая на кнопку, вы принимаете <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/regulation.html" target="_blank" rel="nofollow">Положение</a> и <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/consent.html" target="_blank" rel="nofollow">Согласие</a> на обработку персональных данных.</p>
           </div>
         </form>
       </div>
@@ -57,7 +56,7 @@
         <form id="right-form" action="">
           <p class="proposal__forms__form-header">Заявка на восстановление КБМ с НЕограниченным количеством водителей</p>
           <div class="form-group">
-            <input class="form-control" id="phone" type="text" placeholder="Телефон"/><small class="form-text text-muted" id="emailHelp">После ввода проверьте правильность номера телефона</small>
+            <input class="phone form-control" id="phone" type="text" placeholder="Телефон"/><small class="form-text text-muted" id="emailHelp">После ввода проверьте правильность номера телефона</small>
           </div>
           <div class="form-group">
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Фамилия *" required="required"/>
@@ -69,7 +68,7 @@
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Отчество *" required="required"/>
           </div>
           <div class="form-group">
-            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Дата рождения *" required="required"/>
+            <input class="birthday form-control" id="exampleInputPassword1" type="text" placeholder="Дата рождения *" required="required"/>
           </div>
           <div class="form-group">
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Паспорт *" required="required"/>
@@ -90,11 +89,10 @@
             <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Предыдущее водительское удостоверение" required="required"/><small class="form-text text-muted" id="for">Заполняется в случае смены в/у и наличия данных предыдущего в/у</small>
           </div>
           <div class="form-group">
-            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Email" required="required"/>
-            <smal class="form-text text-muted" id="emailHelp">Заполняется в случае наличия электронной почты</smal>
+            <input class="form-control" id="exampleInputPassword1" type="text" placeholder="Email" required="required"/><small class="form-text text-muted" id="emailHelp">Заполняется в случае наличия электронной почты</small>
           </div>
           <div class="form-group">
-            <p>Выберите предпочтительный для Вас способ оплаты</p>
+            <label for="">Выберите предпочтительный для Вас способ оплаты</label>
             <div class="form-check">
               <input class="form-check-input" id="exampleRadios1" type="radio" name="exampleRadios" value="option1" checked=""/>
               <label class="form-check-label" for="exampleRadios1">499 рублей, предоплатой</label>
@@ -109,7 +107,7 @@
           </div>
           <div class="text-center">
             <button class="btn btn-info" type="submit">Отправить заявку</button>
-            <p>Нажимая на кнопку, вы принимаете <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/regulation.html" target="_blank" rel="nofollow">Положение</a> и <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/consent.html" target="_blank" rel="nofollow">Согласие</a> на обработку персональных данных.</p>
+            <p class="agreement">Нажимая на кнопку, вы принимаете <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/regulation.html" target="_blank" rel="nofollow">Положение</a> и <a style="color:rgba(50, 136, 230, 1);" href="//1kbm.ru/consent.html" target="_blank" rel="nofollow">Согласие</a> на обработку персональных данных.</p>
           </div>
         </form>
       </div>
